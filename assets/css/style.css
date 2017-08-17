@@ -7,6 +7,7 @@ header {
     background-color: #D3D3D3;
     height: 60px;
     margin-bottom: 60px;
+    vertical-align: middle;
 }
 
 h1 h2 {
@@ -19,6 +20,9 @@ h1 h2 {
 
 h1 {
     font-size: 30px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 50%-30px;
 }
 
 h2 {
@@ -32,21 +36,31 @@ aside{
     width: 150px;
 }
 
+footer{
+    background-color: gray;
+    width: 80%;
+    height: 10%;
+    position: fixed;
+    bottom: 0;
+}
+
 .box-name {
     background-color: #51DDD8;
     height: 150%;
-    width: 300px;
+    width: 35%;
     float: left;
     position: relative;
     left: 30px;    
 }
 
 .box-link {
-    background-color: yellow;
-    height: 100%;
-    width: 80px;
+    width: 9%;
+    font-size: 20px;
     float: right;
     text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 18px 0;
 }
 
 .link-page{
@@ -58,8 +72,8 @@ aside{
     margin-right: 20px;
 }
 
-.block-75{
-    width: 75%;
+.block-third{
+    width: 70%;
     float: left;
 }
 
