@@ -8,7 +8,7 @@ header {
     vertical-align: middle;
 }
 
-h1 h2 {
+h1, h2 {
     font-family: 'Georgia', Times, Times New Roman, serif;
  }
  
@@ -71,6 +71,19 @@ footer{
 
 .link-page{
     vertical-align: middle;
+}
+
+a:visited{
+    border: 1px solid blue;
+}
+
+a:hover{
+    background-color: black;
+    font-size: 20px
+}
+
+a:active{
+    border: 1px solid red;
 }
 
 .portrait{
