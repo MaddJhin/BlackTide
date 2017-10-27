@@ -3,16 +3,16 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const path = require('path');
 const hdb = require("express-handlebars");
-const htmlRoutes = require('./app/routing/htmlRoutes');
+const routes = require('./controllers/controller');
 
 // App Setup
 // ======================================================
-var app = express();
-var PORT = process.env.PORT || 3000;
+const app = express();
+const PORT = process.env.PORT || 3000;
 
 app.use(bodyParser.urlencoded( { extended: true } ));
 app.use(bodyParser.json());
-app.use(express.static(__dirname + '/app/public'));
+app.use(express.static(__dirname + '/public'));
 
 // Set Handlebars as the default templating engine
 // =======================================================
@@ -21,7 +21,7 @@ app.set("view engine", "handlebars");
 
 // Routing
 // =======================================================
-app.use('/', htmlRoutes);
+app.use("/", routes);
 
 // Start Server
 // =======================================================
