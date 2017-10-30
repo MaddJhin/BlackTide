@@ -14,27 +14,33 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
     <link href="http://fonts.googleapis.com/css?family=Lato:400,500,600,700|Open+Sans:400,500,600,700" rel="stylesheet" type="text/css">
 
+    <script src="/cdn-cgi/scripts/78d64697/cloudflare-static/email-decode.min.js"></script>
+
     <title>Black Tide</title>
 
 </head>
 
 <body>
     <nav class="sidebar w3-bar-block w3-small w3-hide-small w3-center">
-        <!-- Avatar image in top left corner -->
-        <img src="/w3images/avatar_smoke.jpg" style="width:100%">
-        <a href="#" class="btn sidebar-item hvr-black">
+        <!-- Avatar image in top left corner /w3images/avatar_smoke.jpg -->
+        <img src="" style="width:100%">
+        <a href="/about" class="btn sidebar-item hvr-black">
             <i class="fa fa-home w3-xxlarge"></i>
             <p>HOME</p>
         </a>
-        <a href="#about" class="btn sidebar-item hvr-black">
+{{!--         
+        <a href="/about" class="btn sidebar-item hvr-black">
             <i class="fa fa-user w3-xxlarge"></i>
             <p>ABOUT</p>
         </a>
         <a href="#contact" class="btn sidebar-item hvr-black">
             <i class="fa fa-envelope w3-xxlarge"></i>
             <p>CONTACT</p>
-        </a>
+        </a> --}}
     </nav>
+
+    {{{body}}}
+
 </body>
 
 </html>
