@@ -35,7 +35,7 @@
     width: 100%;
     display: block;
     padding: 8px 16px;
-    text-align: left;
+    text-align: center;
     border: none;
     outline: none;
     white-space: normal;
@@ -181,7 +181,7 @@ body {
 }
 
 .social-link {
-    display: block;
+    display: inline;
 }
 
 .social-link span {
